@@ -91,6 +91,7 @@ export async function proxy(request) {
 
 export const config = {
     matcher: [
+        '/',
         '/admin/:path*',
         '/my-account/:path*',
         '/auth/:path*',
